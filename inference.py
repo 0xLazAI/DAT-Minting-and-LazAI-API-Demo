@@ -19,6 +19,8 @@ except Exception:
     print("User does not exist, adding user")
     try:
         client.add_user(DEPOSIT_AMOUNT)
+        client.deposit(DEPOSIT_AMOUNT * 2)
+        print("Deposit successful")
         client.deposit_inference(LAZAI_IDAO_ADDRESS, DEPOSIT_AMOUNT)
         print(f"Successfully added user and deposited {DEPOSIT_AMOUNT}")
     except Exception as e:
