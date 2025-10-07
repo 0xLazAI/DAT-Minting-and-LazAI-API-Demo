@@ -66,7 +66,10 @@ This script will:
 
 **Expected Output:**
 ```
-File ID: [some_number]
+Tx Hash: 0x....
+File ID: 0000
+Proof request sent successfully
+Reward requested for file id 0000
 ```
 
 **Important:** Save the File ID that is printed - you'll need it for the next step.
