@@ -1,0 +1,30 @@
+{
+  "name": "dat-mint",
+  "version": "1.0.0",
+  "description": "LazAI Data Privacy Application",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "npx tsc && node dist/main.js",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "alith": "^0.12.3",
+    "dotenv": "^17.2.3",
+    "eth-sig-util": "^3.0.1",
+    "form-data": "^4.0.4",
+    "node-fetch": "^3.3.2",
+    "node-rsa": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/form-data": "^2.2.1",
+    "@types/node": "^24.7.2",
+    "@types/node-rsa": "^1.1.4",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["lazai", "blockchain", "ipfs", "privacy", "encryption"],
+  "author": "",
+  "license": "MIT"
+}
